@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950395719931",
+    "project_id": "hodadaq-2aa0f",
+    "storage_bucket": "hodadaq-2aa0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950395719931:android:c8e818e1c331af3ca6205e",
+        "android_client_info": {
+          "package_name": "com.inhatc.hodadaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950395719931-2icrrarbs8pjkj6r3bsptkv6lufes29s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmkBCHJuJs8Uo5JcO4BsSA2RxTXxXuuC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950395719931-2icrrarbs8pjkj6r3bsptkv6lufes29s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
