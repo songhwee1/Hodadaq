@@ -1,5 +1,6 @@
 package com.inhatc.hodadaq;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -54,8 +55,10 @@ public class RegisterActivity extends AppCompatActivity {
             mDatabase = FirebaseDatabase.getInstance().getReference();
             mDatabase.child("user").child("info").push().setValue(result);
 
-            Toast.makeText(RegisterActivity.this, "I'll let you know after the administrator approves it.",
+            Toast.makeText(RegisterActivity.this, "회원가입 완료!",
                     Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(getApplication(), MainActivity.class)); //로딩이 끝난 후, ChoiceFunction 이동
+
 
         });
     }
